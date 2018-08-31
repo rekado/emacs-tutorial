@@ -39,7 +39,7 @@ differences here.
 ** Frames
 
 If you have just started Emacs and this tutorial, you will be looking at a
-single window showing this tutorial. In Emacs terminology, this is not a
+single window showing this tutorial. In Emacs terminology, this is not
 described as a window but as a /frame/. As with many applications, a single
 running Emacs can create any number of frames. We can do this using the menu
 system (we will investigate other ways later); try this now, but remember,
@@ -70,7 +70,7 @@ Emacs also has a light-weight alternative which it calls a /window/. It is
 possible to have any number of windows visible in a single frame, to resize
 them and change their arrangement, not unlike frames.
 
-We can create a new frame with:
+We can create a new window with:
 
 #+begin_menu
 File
@@ -87,7 +87,7 @@ Remove other windows
 
 Frames and windows fulfil roughly similar purposes for the user perspective.
 So, which is best to use? Broadly, windows can be manipulated entirely within
-Emacs, and work where-ever Emacs works, while frames can also be manipulated
+Emacs, and work wherever Emacs works, while frames can also be manipulated
 using tools from the desktop environment. Later in the tutorial, we will
 demonstrate more rapid ways of manipulating windows than the menu bars we have
 used so far.
@@ -95,13 +95,13 @@ used so far.
 ** Buffers
 
 In each window, Emacs displays a /buffer/. In most cases, (including the
-buffer you reading now), a buffer contains the contents of a file, or what
+buffer you are reading now), a buffer contains the contents of a file, or what
 will become the contents of the file when it is saved. However, Emacs also
 uses buffers to contain anything that you might want to interact with: the
 contents of a directory, a process or even the configuration options of Emacs
 itself.
 
-At any point in time, a buffer may or may not be visible, but they can be
+At any point in time, a buffer may or may not be visible, but it can be
 displayed in a window when you choose. We try this now. First, we split our
 window:
 
